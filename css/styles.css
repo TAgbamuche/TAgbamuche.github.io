@@ -40,18 +40,23 @@ h3{
 }
 .italics{
    font-style:italic;
-    color: #660000;
+    color: #221F1F;
+    /*660000*/
     font-size: 15px;
     
 }
 /*price command*/
 .price{
      word-spacing: 60px;
-    color: #001178 ;
+    color: #FFFAFA;
      font-weight: bold;
 }
 
-
+.price2{
+     word-spacing: 60px;
+    color: #DD7086 ;
+     font-weight: bold;
+}
                   
 /* navigation Bar */
                 
@@ -86,10 +91,19 @@ a:link{
 text-decoration: none;}
 
 /*Image styling. Home and Menu */
-.square-pic, .menu {
+.square-pic {
     width:50%;
     margin-left:10%;
     line-height: 80px;
+    border-radius: 50px;
+    border: solid 3px darkgoldenrod;
+    margin-bottom: 1px;
+}
+
+.menu {
+    width:35%;
+    margin-left:5%;
+    line-height: 50px;
     border-radius: 50px;
     border: solid 3px darkgoldenrod;
     margin-bottom: 1px;
@@ -135,14 +149,14 @@ text-align: center;
     width: 1190px;
     line-height: 40px;
     display:inline-block;
-    background-color: #B1E4E2;
+    background-color: #FFF0BD;
     outline-color: rgba(225, 225, 225,0.5) 4px;
     background-image: 
     url("https://www.transparenttextures.com/patterns/subtle-grey.png");
       padding-left: 20px;
     padding-right: 30px;
     padding-top: 10px;
-    border: double 5px #936C5E;
+    border: double 5px #B2948A;
 }
 .menuDivision{
     display: flex;
@@ -155,7 +169,7 @@ text-align: center;
     line-height: 40px;
     display:inline-block;
     outline-color: rgba(225, 225, 225,0.5) 4px;
-    background-color: #ffbfb3;
+    background-color: #EE9CB0;
     background-image: 
     url("https://www.transparenttextures.com/patterns/subtle-grey.png");
     padding-left: 20px;
@@ -163,6 +177,19 @@ text-align: center;
     padding-top: 10px;
      border: double 5px #986879;
 
+}
+
+.boxtext{
+    color: #FFF0BD;
+    font-family: 'Karla';
+}
+
+.boxtext2{
+    color: #9C2E0E;
+    font-family: 'Karla';
+}
+    
+    font-weight: bolder;
 }
 
 /* padding */
