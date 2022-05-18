@@ -1,0 +1,257 @@
+  body {
+                        background-color:snow;
+                    }
+
+/* text style */
+p{
+color: #936C5E;
+    font-family:'Inter', cursive ;
+    font-size: 20px;
+}
+
+h2{
+    font-family: 'Inter';
+        font-size:70px;
+    text-align:center;
+     color: darkred;
+}
+
+.homestyle{
+color:#936C5E; 
+  font-family: 'Inter' bold;
+font-size: 20px;
+    margin-left: 0px;
+line-height: 1.8;
+ margin-bottom: 30px;}
+
+
+.size{
+    width: 500px;
+}
+
+h3{
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    
+}
+.heading {
+  float:left;
+    font-family: 'Karla';
+}
+.italics{
+   font-style:italic;
+    color: #660000;
+    font-size: 15px;
+    
+}
+/*price command*/
+.price{
+     word-spacing: 60px;
+    color: #001178 ;
+     font-weight: bold;
+}
+
+
+                  
+/* navigation Bar */
+                
+#navBar{
+    height:40px;
+    color:#936C5E;
+    border-bottom: solid 0px #FFBFB3;
+}
+                .header { 
+                        background-color:#E31D79;
+                        color: #FFFFE2 ;
+                        text-align:center;
+                        height:60px;
+                        line-height: 40px;
+                        width:220px;
+                    margin-left:1px;
+                    margin-right:0px;
+                        font-size:35px; 
+                        display: inline-block;
+                    border-bottom: solid 3px #FFBFB3;
+                    border-top:  solid 3px #FFBFB3;
+                    }
+                            
+                .header:hover {
+                    background-color:#FFBFB3; 
+                    color:#936C5E;
+                    transition: background-color 10s;
+                    transition: width 5s, height 2s, transform 2s;
+                            }
+
+a:link{
+text-decoration: none;}
+
+/*Image styling. Home and Menu */
+.square-pic, .menu {
+    width:50%;
+    margin-left:10%;
+    line-height: 80px;
+    border-radius: 50px;
+    border: solid 3px darkgoldenrod;
+    margin-bottom: 1px;
+}
+
+
+
+/* index */
+.padleft {
+    position: relative;
+    left: 30px;
+}
+
+.i1a2 {
+    width: 895px; 
+}
+
+.float-right {
+                float:right;
+                clear:both;
+                display:inline-block;
+                overflow:scroll;
+                  
+            }
+.rounded-pic {
+    width:400px;
+    height: 300px;
+    border-radius: 100px;
+    border: solid 3px darkgoldenrod;
+    display: block;
+    position:absolute;
+    margin-top: 30px;
+}
+
+/*allow top tag to stay at the bottom*/
+.bottom{
+padding-top: 400px;
+text-align: center;
+}
+
+/*texture to hold each menu section*/
+.sports-box2 {
+    width: 1190px;
+    line-height: 40px;
+    display:inline-block;
+    background-color: #B1E4E2;
+    outline-color: rgba(225, 225, 225,0.5) 4px;
+    background-image: 
+    url("https://www.transparenttextures.com/patterns/subtle-grey.png");
+      padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+    border: double 5px #936C5E;
+}
+.menuDivision{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sports-box {
+    width: 1190px;
+    line-height: 40px;
+    display:inline-block;
+    outline-color: rgba(225, 225, 225,0.5) 4px;
+    background-color: #ffbfb3;
+    background-image: 
+    url("https://www.transparenttextures.com/patterns/subtle-grey.png");
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+     border: double 5px #986879;
+
+}
+
+/* padding */
+
+.center {
+    text-align: center;
+}
+
+
+
+
+/* gallery*/
+
+
+.carousel-caption {
+   background-color: whitesmoke;
+    border-radius: 20px;
+    color: #FFBFB3;
+    max-width:100%;
+    left:0 !important;
+    right:0 !important;
+    opacity: 1.9;
+}
+.carousel{
+width: 60%;
+    margin-left: 250px;
+}
+
+.carousel .item img {
+   left: -9999px;  /*important */
+   right: -9999px;  /*important */
+   margin: 0 auto;  /*important */
+   max-width: none;  /*important */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+            .caption {
+                background-color:#936C5E;
+                color:black;
+                width:100%;
+                position:relative;
+                bottom:30px;
+                left:0;
+                font-size:30px;
+                text-align:center;
+                padding: 10px 0;
+            }
+
+
+/* contact*/
+        input { 
+           margin-bottom:10px;
+        }
+        
+        input[type=submit],[type=text]  
+        { 
+            display:block;   
+            color: #E31D79;
+            width: 200px;
+            height: 50px;
+      
+        }
+        input[type=submit]{
+             background-color: #B1E4E2;
+            transition: background-color 3s;
+        }
+                input[type=submit]:hover{
+             background-color: #FFEFBC;
+        }
+
+.wd { width:250px; }
+			.wd_a { transition: width 2s; }
+			.wd:hover { width:200px; }
+
+.ref{
+    margin-left: 50px;
+}
