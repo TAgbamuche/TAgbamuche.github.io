@@ -1,0 +1,157 @@
+       <!doctype html>
+<html>
+    <head>
+            <title>MoltenBerry| Contact</title>
+<link rel="stylesheet" type="text/css" href="css/blocks.css"> 
+ <link rel="stylesheet" type="text/css" href="css/styles.css"> 
+          <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Karla:wght@300&display=swap" rel="stylesheet">
+                <script>
+            function changeBorderColour(fieldID, colour) {
+                var field = document.getElementById(fieldID);
+                field.style.borderColor = colour;
+            }
+            
+            function showChoice() {
+                var field = document.getElementById("sel");
+                var options = field.options;
+                var si = field.selectedIndex;
+                var choice = options[si];
+
+                var box = document.getElementById("box");
+                box.innerHTML = choice.text;
+                
+                alert("Changed to " + choice.text);
+                
+            }
+        </script>
+        
+        <!--BOOTSTRAP-->
+            <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+         <link rel="stylesheet" type="text/css" href="css/blocks.css"> 
+ <link rel="stylesheet" type="text/css" href="css/styles.css"> 
+    </head>
+
+    <body>
+        
+        <div class='wrapper'>
+           
+                       <section> 
+                    <div class=" ib i1"><img src="img/banner.jpg" /></div> 
+                </section> 
+  <!--
+NAVBAR
+
+-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="index.html">Molten Berry</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<ul class="navbar-nav mr-auto">
+	  <li class="nav-item active">
+		<!--<a class="nav-link" href="#specials">Home <span class="sr-only">(current)</span></a>-->
+		<a class="nav-link" href="index.html">Home</a>
+	</li>
+	  <li class="nav-item">
+		<a class="nav-link" href="menu.html">Menu</a>
+	  </li>
+          <li class="nav-item">
+		<a class="nav-link" href="gallery.html">Gallery</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" href="contact.html">Contact</a>
+	  </li>
+     <li class="nav-item">
+		<a class="nav-link" href="refrences.html">References</a>
+	  </li>
+	</ul>
+  </div>
+</nav>
+        
+                        <br>
+            <br>
+
+         <h2> Contact Us </h2>
+             <div class="padleft ">
+<h3 > Restaurant Owner </h3>
+            <h3 class="homestyle">Tina Agbamuche</h3>
+        
+ <h3 >Locations</h3>
+           <ul>
+               <li> <h3 class="homestyle">King City: 12345 Berry St, King City, ON L7B 1G2</h3></li>
+<li> <h3 class="homestyle">Beleville: Belleville Mall, 350 N Front St Unit 26, Belleville, ON K8P 3C3</h3></li>
+<li> <h3 class="homestyle">Calgary: 222 St SE #110, Calgary, AB T2E 7M2</h3></li>
+<li> <h3 class="homestyle">Mississauga: 1310 City Centre Dr, Mississauga, ON L5B 2C9</h3></li>
+<li> <h3 class="homestyle">Vancouver: Molten Berry, 1033 Venier St, Vancouver, BC V6A 3R9</h3></li>
+               </ul>
+ <h3 >Contact number</h3>
+<h3 class="homestyle">(647)-222-098</h3>
+ <h3 >Contact email</h3>
+<h3 class="homestyle">moltenberry@gmail.com</h3>
+</div>
+    
+            <h2>INQUIRY FORM</h2>
+    <div class="ib i3">             
+            <form method='post'>
+                <div class=" center">   <input class=" wd wd_a" type='text' placeholder='Name' id="txt" onfocus="changeBorderColour('txt', 'blue')" onblur="changeBorderColour('txt', 'black')" /></div>
+              
+                
+                <input class=" wd wd_a" type='text' placeholder='Email' id="txt" onfocus="changeBorderColour('txt', 'blue')" onblur="changeBorderColour('txt', 'black')"  />
+                
+                <input class=" wd wd_a" type='text' placeholder='City' id="txt" onfocus="changeBorderColour('txt', 'blue')" onblur="changeBorderColour('txt', 'black')"  />
+                
+                <textarea class=" wd wd_a" placeholder='Message' id="txt" onfocus="changeBorderColour('txt', 'blue')" onblur="changeBorderColour('txt', 'black')" ></textarea>
+                
+                <br>
+             Are you looking to throw a birthday party 
+                <br>
+        <input type="radio" name="party" id="yes" />
+        <label for="yes">Yes</label>
+                
+        <input type="radio" name="party" id="no" />
+                <label for="no">No</label>
+                
+                <br>
+                <br>
+        
+        <label for="date">Date of the birthday party</label> <input type="text" name="date" id="date" /><br/> 
+                
+                                <br>
+             Desserts for the birthday
+                <br>
+        
+        <input type="checkbox" name="item" value="gelato" /> 
+        <label for="gelato">Gelato</label> 
+        
+        <input type="checkbox" name="item" value="first" /> 
+        <label for="first">Ice cream cake</label> 
+        
+      <input type="checkbox" name="item" value="second" /> 
+        <label for="second">Sorbet</label> 
+                
+         <input type="checkbox" name="song" value="first" /> 
+        <label for="first">Ice cream </label> 
+              <br>
+                <br>
+         <label for="first">Other information</label> 
+                <input type='text' placeholder='e.g. Number of participants, decorations brinigng' />
+                
+               
+                 <input class="center" type="submit" name="submit" value="Send Now!" />
+                
+                    <div class="ib i1"><button id="top">Top!</button></div> 
+            </form>
+    </div>
+  </div> 
+    </body>
+</html>
+
+
