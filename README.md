@@ -1,6 +1,6 @@
 # beamaDe.github.io
- a bead making tutorial website
-Bootstrap theme originally gotten from https://github.com/StartBootstrap/startbootstrap-stylish-portfolio#readme
+ an ice cream shop website
+original version - https://cs2033.gaul.csd.uwo.ca/~eagbamuc/restaurant/menu.html
 
 
 Website Link
